@@ -3855,6 +3855,16 @@
         "runtime": {
           "bin/placeholder/BusinessObject.dll": {}
         }
+      },
+      "Utility/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Utility.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Utility.dll": {}
+        }
       }
     }
   },
@@ -10936,6 +10946,11 @@
       "type": "project",
       "path": "../BusinessObject/BusinessObject.csproj",
       "msbuildProject": "../BusinessObject/BusinessObject.csproj"
+    },
+    "Utility/1.0.0": {
+      "type": "project",
+      "path": "../Utility/Utility.csproj",
+      "msbuildProject": "../Utility/Utility.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -10943,7 +10958,8 @@
       "BusinessObject >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 6.0.21",
       "Microsoft.EntityFrameworkCore.Tools >= 6.0.21",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.16"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 6.0.16",
+      "Utility >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -10952,11 +10968,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\eStoreClient\\eStoreClient.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\eStoreClient\\eStoreClient.csproj",
       "projectName": "eStoreClient",
-      "projectPath": "C:\\Users\\Admin\\source\\repos\\eStoreClient\\eStoreClient.csproj",
+      "projectPath": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\eStoreClient\\eStoreClient.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\source\\repos\\eStoreClient\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\eStoreClient\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -10974,8 +10990,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Admin\\source\\repos\\BusinessObject\\BusinessObject.csproj": {
-              "projectPath": "C:\\Users\\Admin\\source\\repos\\BusinessObject\\BusinessObject.csproj"
+            "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\BusinessObject\\BusinessObject.csproj": {
+              "projectPath": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\BusinessObject\\BusinessObject.csproj"
+            },
+            "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\Utility\\Utility.csproj": {
+              "projectPath": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\Utility\\Utility.csproj"
             }
           }
         }

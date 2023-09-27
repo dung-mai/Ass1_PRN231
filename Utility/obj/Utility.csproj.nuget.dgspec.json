@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Admin\\source\\repos\\Utility\\Utility.csproj": {}
+    "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\Utility\\Utility.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Admin\\source\\repos\\Utility\\Utility.csproj": {
+    "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\Utility\\Utility.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\Utility\\Utility.csproj",
+        "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\Utility\\Utility.csproj",
         "projectName": "Utility",
-        "projectPath": "C:\\Users\\Admin\\source\\repos\\Utility\\Utility.csproj",
+        "projectPath": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\Utility\\Utility.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Admin\\source\\repos\\Utility\\obj\\",
+        "outputPath": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\Utility\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

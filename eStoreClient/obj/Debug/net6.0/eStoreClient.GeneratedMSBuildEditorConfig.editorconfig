@@ -9,57 +9,81 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = eStoreClient
 build_property.RootNamespace = eStoreClient
-build_property.ProjectDir = C:\Users\Admin\source\repos\eStoreClient\
+build_property.ProjectDir = C:\Users\Admin\source\repos\Assignment1_PRN231\eStoreClient\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\Admin\source\repos\eStoreClient
+build_property.MSBuildProjectDirectory = C:\Users\Admin\source\repos\Assignment1_PRN231\eStoreClient
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/Admin/source/repos/eStoreClient/Pages/Error.cshtml]
+[C:/Users/Admin/source/repos/Assignment1_PRN231/eStoreClient/Pages/Authentication/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQXV0aGVudGljYXRpb25cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/Assignment1_PRN231/eStoreClient/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/eStoreClient/Pages/Index.cshtml]
+[C:/Users/Admin/source/repos/Assignment1_PRN231/eStoreClient/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/eStoreClient/Pages/Privacy.cshtml]
+[C:/Users/Admin/source/repos/Assignment1_PRN231/eStoreClient/Pages/Members/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVtYmVyc1xDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/Assignment1_PRN231/eStoreClient/Pages/Members/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVtYmVyc1xEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/Assignment1_PRN231/eStoreClient/Pages/Members/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVtYmVyc1xEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/Assignment1_PRN231/eStoreClient/Pages/Members/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVtYmVyc1xFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/Assignment1_PRN231/eStoreClient/Pages/Members/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWVtYmVyc1xJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Admin/source/repos/Assignment1_PRN231/eStoreClient/Pages/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJpdmFjeS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/eStoreClient/Pages/Products/Create.cshtml]
+[C:/Users/Admin/source/repos/Assignment1_PRN231/eStoreClient/Pages/Products/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/eStoreClient/Pages/Products/Delete.cshtml]
+[C:/Users/Admin/source/repos/Assignment1_PRN231/eStoreClient/Pages/Products/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcRGVsZXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/eStoreClient/Pages/Products/Details.cshtml]
+[C:/Users/Admin/source/repos/Assignment1_PRN231/eStoreClient/Pages/Products/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/eStoreClient/Pages/Products/Edit.cshtml]
+[C:/Users/Admin/source/repos/Assignment1_PRN231/eStoreClient/Pages/Products/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/eStoreClient/Pages/Products/Index.cshtml]
+[C:/Users/Admin/source/repos/Assignment1_PRN231/eStoreClient/Pages/Products/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcUHJvZHVjdHNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/eStoreClient/Pages/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/Admin/source/repos/Assignment1_PRN231/eStoreClient/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/eStoreClient/Pages/_ViewImports.cshtml]
+[C:/Users/Admin/source/repos/Assignment1_PRN231/eStoreClient/Pages/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/eStoreClient/Pages/_ViewStart.cshtml]
+[C:/Users/Admin/source/repos/Assignment1_PRN231/eStoreClient/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Admin/source/repos/eStoreClient/Pages/Shared/_Layout.cshtml]
+[C:/Users/Admin/source/repos/Assignment1_PRN231/eStoreClient/Pages/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-awzx0siv6y

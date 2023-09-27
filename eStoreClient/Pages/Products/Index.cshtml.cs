@@ -1,14 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using BusinessObject.DTO;
 using Microsoft.AspNetCore.Mvc.RazorPages;
-using Microsoft.EntityFrameworkCore;
-using BusinessObject.Models;
 using System.Net.Http.Headers;
 using System.Text.Json;
-using BusinessObject.DTO;
 
 namespace eStoreClient.Pages.Products
 {

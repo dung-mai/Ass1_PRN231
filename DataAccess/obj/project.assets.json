@@ -2358,11 +2358,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\DataAccess\\DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\DataAccess\\DataAccess.csproj",
       "projectName": "DataAccess",
-      "projectPath": "C:\\Users\\Admin\\source\\repos\\DataAccess\\DataAccess.csproj",
+      "projectPath": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\DataAccess\\DataAccess.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\source\\repos\\DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2379,8 +2379,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\Admin\\source\\repos\\BusinessObject\\BusinessObject.csproj": {
-              "projectPath": "C:\\Users\\Admin\\source\\repos\\BusinessObject\\BusinessObject.csproj"
+            "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\BusinessObject\\BusinessObject.csproj": {
+              "projectPath": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\BusinessObject\\BusinessObject.csproj"
             }
           }
         }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8vintfT/7FvwdoOvGF9FGnVXo+nWys+sqwl6fVDnFsQyeqTaKCtcrZA2a5W9LXKxGNfLvYOB2BbZkcdjO0eEZA==",
+  "dgSpecHash": "SBQw3Z1vgXhc2B9UKuj3eAjZKfRx2q5Y2FiHE5PQaEzuayJ2aO2N9/DAvHouGOCKMS116sfvKTsjGckPdB9n4A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\eStoreClient\\eStoreClient.csproj",
+  "projectFilePath": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\eStoreClient\\eStoreClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

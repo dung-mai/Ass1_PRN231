@@ -11,7 +11,8 @@
           "BusinessObject": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "6.0.21",
           "Microsoft.EntityFrameworkCore.Tools": "6.0.21",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.16"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "6.0.16",
+          "Utility": "1.0.0"
         },
         "runtime": {
           "eStoreClient.dll": {}
@@ -2516,6 +2517,11 @@
         "runtime": {
           "BusinessObject.dll": {}
         }
+      },
+      "Utility/1.0.0": {
+        "runtime": {
+          "Utility.dll": {}
+        }
       }
     }
   },
@@ -4073,6 +4079,11 @@
       "hashPath": "system.xml.xdocument.4.3.0.nupkg.sha512"
     },
     "BusinessObject/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Utility/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

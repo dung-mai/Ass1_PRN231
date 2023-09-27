@@ -17,6 +17,12 @@
 
   <ItemGroup>
     <ProjectReference Include="..\BusinessObject\BusinessObject.csproj" />
+    <ProjectReference Include="..\Utility\Utility.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Pages\Category\" />
+    <Folder Include="Pages\Orders\" />
   </ItemGroup>
 
 </Project>

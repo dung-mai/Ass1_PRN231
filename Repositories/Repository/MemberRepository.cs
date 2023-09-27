@@ -17,7 +17,7 @@ namespace Repositories.Repository
             _mapper = mapper;
         }
 
-        public void AddMember(MemberDTO memberBO)
+        public void AddMember(MemberResponseDTO memberBO)
         {
             MemberDAO memberDAO = new(_context);
             var member = _mapper.Map<Member>(memberBO);
@@ -25,7 +25,7 @@ namespace Repositories.Repository
             _context.SaveChanges();
         }
 
-        public bool DeleteMember(MemberDTO memberBO)
+        public bool DeleteMember(MemberResponseDTO memberBO)
         {
             MemberDAO memberDAO = new(_context);
             try
@@ -41,19 +41,19 @@ namespace Repositories.Repository
             }
         }
 
-        public List<MemberDTO> GetAllMembers()
+        public List<MemberResponseDTO> GetAllMembers()
         {
             MemberDAO memberDAO = new(_context);
-            return memberDAO.GetAllMembers().Select(p => _mapper.Map<MemberDTO>(p)).ToList();
+            return memberDAO.GetAllMembers().Select(p => _mapper.Map<MemberResponseDTO>(p)).ToList();
         }
 
-        public MemberDTO? GetMemberById(int id)
+        public MemberResponseDTO? GetMemberById(int id)
         {
             MemberDAO memberDAO = new(_context);
-            return _mapper.Map<MemberDTO>(memberDAO.GetMemberById(id));
+            return _mapper.Map<MemberResponseDTO>(memberDAO.GetMemberById(id));
         }
 
-        public void UpdateMember(MemberDTO memberBO)
+        public void UpdateMember(MemberResponseDTO memberBO)
         {
             MemberDAO memberDAO = new(_context);
             var member = _mapper.Map<Member>(memberBO);
@@ -61,25 +61,11 @@ namespace Repositories.Repository
             _context.SaveChanges();
         }
 
-        public bool Login(string email, string password)
+        public MemberResponseDTO? Login(string email, string password)
         {
             MemberDAO memberDAO = new(_context);
             Member? member = memberDAO.GetMemberByEmail(email);
-            if (member == null)
-            {
-                return false;
-            }
-            else
-            {
-                if (!member.Password.Equals(password))
-                {
-                    return false;
-                }
-                else
-                {
-                    return true;
-                }
-            }
+            return (member != null && member.Password.Equals(password)) ? _mapper.Map<MemberResponseDTO>(member) : null;
         }
     }
 }

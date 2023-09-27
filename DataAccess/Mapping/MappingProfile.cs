@@ -17,6 +17,7 @@ namespace Bussiness.Mapping
             CreateMap<Product, ProductDTO>().ReverseMap();
             CreateMap<Product, ProductResponseDTO>().ReverseMap();
             CreateMap<Member, MemberDTO>().ReverseMap();
+            CreateMap<Member, MemberResponseDTO>().ReverseMap();
             CreateMap<Category, CategoryDTO>().ReverseMap();
         }
 

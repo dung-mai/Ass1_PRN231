@@ -10,11 +10,11 @@ namespace Repositories.IRepository
 {
     public interface IMemberRepository
     {
-        public void AddMember(MemberDTO member);
-        public void UpdateMember(MemberDTO member);
-        public bool DeleteMember(MemberDTO member);
-        public MemberDTO? GetMemberById(int id);
-        public List<MemberDTO> GetAllMembers();
-        public bool Login(string username, string password);
+        public void AddMember(MemberResponseDTO member);
+        public void UpdateMember(MemberResponseDTO member);
+        public bool DeleteMember(MemberResponseDTO member);
+        public MemberResponseDTO? GetMemberById(int id);
+        public List<MemberResponseDTO> GetAllMembers();
+        public MemberResponseDTO? Login(string username, string password);
     }
 }

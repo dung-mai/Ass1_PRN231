@@ -8,7 +8,7 @@ namespace BusinessObject.DTO
 {
     public class MemberDTO
     {
-        public int MemberId { get; set; }
+        //public int MemberId { get; set; }
         public string Email { get; set; } = null!;
         public string? CompanyName { get; set; }
         public string? City { get; set; }

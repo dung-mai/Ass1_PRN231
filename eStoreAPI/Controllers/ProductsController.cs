@@ -1,4 +1,5 @@
 ﻿using BusinessObject.DTO;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Repositories.IRepository;
 using System.Reflection.Metadata.Ecma335;
@@ -8,6 +9,7 @@ using System.Reflection.Metadata.Ecma335;
 namespace eStoreAPI.Controllers
 {
     [Route("api/[controller]")]
+    [Authorize]
     [ApiController]
     public class ProductsController : ControllerBase
     {

@@ -5,12 +5,96 @@
       "PackagePath": "staticwebassets\\eStoreClient.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\eStoreClient\\wwwroot\\css\\admin.css",
+      "PackagePath": "staticwebassets\\css\\admin.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\eStoreClient\\wwwroot\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\eStoreClient\\wwwroot\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\eStoreClient\\wwwroot\\css\\mdb.min.css",
+      "PackagePath": "staticwebassets\\css\\mdb.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\eStoreClient\\wwwroot\\css\\mdb.min.css.map",
+      "PackagePath": "staticwebassets\\css\\mdb.min.css.map"
+    },
+    {
       "Id": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\eStoreClient\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\eStoreClient\\wwwroot\\css\\style.css",
+      "PackagePath": "staticwebassets\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\eStoreClient\\wwwroot\\css\\ui.css",
+      "PackagePath": "staticwebassets\\css\\ui.css"
+    },
+    {
       "Id": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\eStoreClient\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\eStoreClient\\wwwroot\\img\\calendar.svg",
+      "PackagePath": "staticwebassets\\img\\calendar.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\eStoreClient\\wwwroot\\img\\default-avatar.jpg",
+      "PackagePath": "staticwebassets\\img\\default-avatar.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\eStoreClient\\wwwroot\\img\\edit.svg",
+      "PackagePath": "staticwebassets\\img\\edit.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\eStoreClient\\wwwroot\\img\\home.svg",
+      "PackagePath": "staticwebassets\\img\\home.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\eStoreClient\\wwwroot\\img\\lock.svg",
+      "PackagePath": "staticwebassets\\img\\lock.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\eStoreClient\\wwwroot\\img\\log-out.svg",
+      "PackagePath": "staticwebassets\\img\\log-out.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\eStoreClient\\wwwroot\\img\\logo_manager.png",
+      "PackagePath": "staticwebassets\\img\\logo_manager.png"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\eStoreClient\\wwwroot\\img\\search.svg",
+      "PackagePath": "staticwebassets\\img\\search.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\eStoreClient\\wwwroot\\img\\settings.svg",
+      "PackagePath": "staticwebassets\\img\\settings.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\eStoreClient\\wwwroot\\img\\settings_gray.svg",
+      "PackagePath": "staticwebassets\\img\\settings_gray.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\eStoreClient\\wwwroot\\img\\smile.svg",
+      "PackagePath": "staticwebassets\\img\\smile.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\eStoreClient\\wwwroot\\img\\smile_gray.svg",
+      "PackagePath": "staticwebassets\\img\\smile_gray.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\eStoreClient\\wwwroot\\img\\user.svg",
+      "PackagePath": "staticwebassets\\img\\user.svg"
+    },
+    {
+      "Id": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\eStoreClient\\wwwroot\\img\\users.svg",
+      "PackagePath": "staticwebassets\\img\\users.svg"
     },
     {
       "Id": "C:\\Users\\Admin\\source\\repos\\Assignment1_PRN231\\eStoreClient\\wwwroot\\js\\site.js",

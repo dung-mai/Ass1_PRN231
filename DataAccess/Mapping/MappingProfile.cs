@@ -13,6 +13,10 @@ namespace Bussiness.Mapping
         public MappingProfile()
         {
             CreateMap<Order, OrderDTO>().ReverseMap();
+            CreateMap<Order, OrderItemDTO>()
+                .ForMember(des => des.Email,
+                           opt => opt.MapFrom(src => src.Member.Email))
+                .ReverseMap();
             CreateMap<OrderDetail, OrderDetailDTO>().ReverseMap();
             CreateMap<Product, ProductDTO>().ReverseMap();
             CreateMap<Product, ProductResponseDTO>().ReverseMap();

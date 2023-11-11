@@ -502,3 +502,8 @@ C:\Users\Admin\source\repos\Assignment1_PRN231\eStoreClient\obj\Debug\net6.0\eSt
 C:\Users\Admin\source\repos\Assignment1_PRN231\eStoreClient\obj\Debug\net6.0\ref\eStoreClient.dll
 C:\Users\Admin\source\repos\Assignment1_PRN231\eStoreClient\bin\Debug\net6.0\Utility.dll
 C:\Users\Admin\source\repos\Assignment1_PRN231\eStoreClient\bin\Debug\net6.0\Utility.pdb
+C:\Users\Admin\source\repos\Assignment1_PRN231\eStoreClient\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Admin\source\repos\Assignment1_PRN231\eStoreClient\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Admin\source\repos\Assignment1_PRN231\eStoreClient\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Admin\source\repos\Assignment1_PRN231\eStoreClient\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Admin\source\repos\Assignment1_PRN231\eStoreClient\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll

@@ -144,3 +144,11 @@ C:\Users\Admin\source\repos\Assignment1_PRN231\eStoreAPI\obj\Debug\net6.0\refint
 C:\Users\Admin\source\repos\Assignment1_PRN231\eStoreAPI\obj\Debug\net6.0\eStoreAPI.pdb
 C:\Users\Admin\source\repos\Assignment1_PRN231\eStoreAPI\obj\Debug\net6.0\eStoreAPI.genruntimeconfig.cache
 C:\Users\Admin\source\repos\Assignment1_PRN231\eStoreAPI\obj\Debug\net6.0\ref\eStoreAPI.dll
+C:\Users\Admin\source\repos\Assignment1_PRN231\eStoreAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Admin\source\repos\Assignment1_PRN231\eStoreAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Admin\source\repos\Assignment1_PRN231\eStoreAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Admin\source\repos\Assignment1_PRN231\eStoreAPI\bin\Debug\net6.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\Admin\source\repos\Assignment1_PRN231\eStoreAPI\bin\Debug\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\Admin\source\repos\Assignment1_PRN231\eStoreAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Admin\source\repos\Assignment1_PRN231\eStoreAPI\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\Admin\source\repos\Assignment1_PRN231\eStoreAPI\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll

@@ -1,10 +1,14 @@
 ﻿using BusinessObject.DTO;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.Data;
 using System.Net.Http.Headers;
 using System.Text.Json;
+using Utility;
 
 namespace eStoreClient.Pages.Products
 {
+    [Authorize(Roles = UserRoles.Admin)]
     public class IndexModel : PageModel
     {
         private readonly HttpClient client;
@@ -16,6 +20,11 @@ namespace eStoreClient.Pages.Products
             client = new HttpClient();
             var contentType = new MediaTypeWithQualityHeaderValue("application/json");
             client.DefaultRequestHeaders.Accept.Add(contentType);
+            var token = HttpContext.Request.Cookies["jwt"];
+            if (token != null)
+            {
+                client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue("Bearer", token);
+            }
             ProductApiUrl = "https://localhost:7263/api/Products";
         }
 

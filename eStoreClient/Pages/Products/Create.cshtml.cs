@@ -9,9 +9,12 @@ using BusinessObject.Models;
 using System.Net.Http.Headers;
 using BusinessObject.DTO;
 using System.Text.Json;
+using Utility;
+using Microsoft.AspNetCore.Authorization;
 
 namespace eStoreClient.Pages.Products
 {
+    [Authorize(Roles = UserRoles.Admin)]
     public class CreateModel : PageModel
     {
         private readonly HttpClient client;

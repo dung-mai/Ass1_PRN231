@@ -1,0 +1,312 @@
+/* GENERAL STYLING */
+
+.body {
+    font-family: "Material Icons Round";
+    line-height: 1.5;
+}
+
+input:focus {
+    outline: none;
+}
+
+input:hover {
+    cursor: pointer;
+    outline: none;
+}
+
+.page-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.btn {
+    text-align: center;
+    text-decoration: none;
+    vertical-align: middle;
+    border: 1px solid transparent;
+    padding: 0.4rem 0.5rem;
+    font-size: 18px;
+    border-radius: 0.25rem;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #2752bc;
+    border-color: #254db0;
+    padding: 0.75rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+select {
+    padding: 0.5rem 1.75rem 0.5rem 0.75rem;
+    margin-left: 20px;
+    line-height: 1.5;
+    border: 1px solid #cfdbe6;
+    border-radius: 0.25rem;
+    font-size: 16px;
+    background-color: #fff;
+    font-weight: 400;
+}
+
+
+/* LEFT
+------------------ */
+aside {
+    overflow: scroll;
+}
+
+.left-aside .aside-top {
+    padding: 1rem 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aside-top button {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.5;
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    border-radius: 0.25rem;
+    background-color: #f5f5f5;
+}
+
+.menu-aside {
+    margin: 0.5rem;
+    padding: 0;
+}
+
+.menu-item {
+    list-style: none;
+}
+
+.menu-item a {
+    display: block;
+    text-decoration: none;
+    line-height: 1.5;
+    padding: 15px;
+    color: #29335d;
+    font-weight: bold;
+    border-radius: 0.3rem;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    transition: background-color .15s ease-in-out;
+}
+
+.menu-item i {
+    color: #adb5bd;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+.menu-item a:hover {
+    background-color: #f1f1f1;
+}
+
+
+/* 
+    PRODUCT PAGE 
+---------------------------------*/
+
+.main-admin-page {
+    background-color: #f8f9fa;
+}
+
+/* Header */
+.main-header {
+    padding-left: 3%;
+    padding-right: 3%;
+    background-color: #fff;
+    border-bottom: 1px solid rgba(108, 117, 125, 0.25);
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+
+.col-user {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 100px;
+}
+
+.col-user a {
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.col-user i {
+    color: #707172;
+}
+
+/* Search form */
+.searchform {
+    position: relative;
+    border: 1px solid grey;
+    border-radius: 2%;
+}
+
+.searchform {
+    margin: 0;
+    padding: 0;
+}
+
+.searchform input {
+    padding-left: 10px;
+    width: 25rem;
+    height: 3rem;
+    border: none;
+    border-radius: 2%;
+    font-size: 16px;
+}
+
+.searchform button {
+    padding: 15px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: #f1f1f1;
+    border: none;
+}
+
+.searchform button i {
+    font-size: large;
+}
+
+/* USER SETTING */
+.dropdown-account-toggle img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+
+.dropdown-account-toggle {
+    display: flex;
+    align-items: center;
+}
+
+.dropdown-menu-list a:hover {
+    border-radius: 5px;
+    background: #f1f1f1;
+}
+
+.dropdown-menu-list {
+    position: absolute;
+    width: max-content;
+    background-color: #fff;
+    right: 0;
+    border: 1px solid rgb(145, 141, 141);
+    padding: 10px 0;
+    list-style: none;
+    visibility: hidden;
+    border-radius: 2px;
+    z-index: 2;
+}
+
+.dropdown-menu-list a {
+    font-size: 18px;
+    display: block;
+    color: #000;
+    padding: 8px 20px;
+}
+
+.dropdown:hover .dropdown-menu-list {
+    visibility: visible;
+}
+
+.content-main {
+    padding: 20px;
+}
+
+.col-search form {
+    width: 480px;
+    position: relative;
+}
+
+.dropdown-menu-list img {
+    width: 16px;
+    margin-right: 10px;
+}
+
+.dropdown-menu-list {
+    font-size: 16px;
+    box-shadow: 0 0 20px 0 rgb(0 0 0 / 30%);
+    border-radius: 5px;
+    border: none;
+}
+
+.search_field input[type="text"] {
+    padding: 1px 2px;
+}
+
+.search_field input {
+    display: inline-block;
+    font-size: 17px;
+    height: 50px;
+    width: 100%;
+    padding-left: 87px;
+    padding-right: 15px;
+    border-bottom: 1px solid #f4f7fc;
+    background: #f5f7fd;
+    border-radius: 30px;
+    border: none;
+}
+
+.search-btn {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    background: 0 0;
+    font-size: 12px;
+    border: 0;
+    padding-left: 40px;
+    padding-right: 11px;
+}
+
+.page-wrapper {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.left-aside {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 19%;
+    height: 100vh;
+    font-family: 'Mulish', sans-serif;
+}
+
+main {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 81%;
+}
+
+.left-aside .text {
+    font-family: poppins, sans-serif;
+    color: #676b84;
+    font-size: 17px;
+    font-weight: 500;
+}

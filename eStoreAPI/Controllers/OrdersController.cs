@@ -5,7 +5,7 @@ using Repositories.IRepository;
 
 namespace eStoreAPI.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/orders")]
     [ApiController]
     public class OrdersController : ControllerBase
     {

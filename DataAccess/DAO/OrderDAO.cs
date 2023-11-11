@@ -1,4 +1,5 @@
 ﻿using BusinessObject.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -19,6 +20,7 @@ namespace DataAccess.DAO
         public List<Order> GetOrders(int StartIndex, int Size)
         {
             return _context.Orders
+                .Include(order => order.Member)
                 .Skip(StartIndex - 1)
                 .Take(Size)
                 .ToList();
@@ -26,17 +28,20 @@ namespace DataAccess.DAO
 
         public Order? GetOrderById(int orderId)
         {
-            return _context.Orders.FirstOrDefault(o => o.OrderId == orderId);
+            return _context.Orders
+                .Include(order => order.Member)
+                .FirstOrDefault(o => o.OrderId == orderId);
         }
 
         public List<Order> GetOrders()
         {
-            return _context.Orders.ToList();
+            return _context.Orders.Include(order => order.Member).ToList();
         }
 
         public int DeleteOrder(int OrderId)
         {
             Order? order = _context.Orders
+                .Include(order => order.Member)
                 .FirstOrDefault(o => o.OrderId == OrderId);
             if (order != null)
             {
